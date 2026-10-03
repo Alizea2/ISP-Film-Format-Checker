@@ -1,0 +1,8 @@
+.DS_Store
+# original films are published as release assets (too large for the repo)
+Exercise3_Files/*.avi
+Exercise3_Files/*.mov
+Exercise3_Files/Cosmos_War_of_the_Planets.mp4
+Exercise3_Files/Last_man_on_earth_1964.mp4
+Exercise3_Files/The_Hill_Gang_Rides_Again.mp4
+Exercise3_Files/Voyage_to_the_Planet_of_Prehistoric_Women.mp4

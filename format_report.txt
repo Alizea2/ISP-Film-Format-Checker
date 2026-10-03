@@ -1,0 +1,81 @@
+================================================================================
+NARBONNE ONLINE FILM FESTIVAL - FORMAT COMPLIANCE REPORT
+================================================================================
+
+Report Generated: 2026-02-25 07:38:22
+
+REQUIRED FORMAT SPECIFICATIONS:
+--------------------------------------------------------------------------------
+  Container Format: mp4
+  Video Codec: hevc (h.265)
+  Audio Codec: aac
+  Frame Rate: 25.0 FPS
+  Aspect Ratio: 16:9
+  Resolution: 640x360
+  Video Bitrate: 2-5 Mb/s
+  Audio Bitrate: up to 256 kb/s
+  Audio Channels: 2 (stereo)
+
+SUMMARY:
+--------------------------------------------------------------------------------
+  Total Films Analyzed: 10
+  Compliant Films: 5
+  Non-Compliant Films: 5
+
+COMPLIANT FILMS:
+--------------------------------------------------------------------------------
+  ✓ Cosmos_War_of_the_Planets_formatOK.mp4
+  ✓ Last_man_on_earth_1964_formatOK.mp4
+  ✓ The_Gun_and_the_Pulpit_formatOK.mp4
+  ✓ Voyage_to_the_Planet_of_Prehistoric_Women_formatOK.mp4
+  ✓ The_Hill_Gang_Rides_Again_formatOK.mp4
+
+NON-COMPLIANT FILMS AND ISSUES:
+================================================================================
+
+Film: Cosmos_War_of_the_Planets.mp4
+--------------------------------------------------------------------------------
+Problematic Fields:
+  • VIDEO_CODEC: Current: h264, Required: hevc
+  • RESOLUTION: Current: 628x354, Required: 640x360
+  • ASPECT_RATIO: Current: 314:177, Required: 16:9
+  • FRAME_RATE: Current: 29.97 FPS, Required: 25.0 FPS
+  • AUDIO_BITRATE: Current: 317 kb/s, Required: up to 256 kb/s
+
+Film: Last_man_on_earth_1964.mov
+--------------------------------------------------------------------------------
+Problematic Fields:
+  • VIDEO_CODEC: Current: prores, Required: hevc
+  • FRAME_RATE: Current: 23.98 FPS, Required: 25.0 FPS
+  • VIDEO_BITRATE: Current: 9.29 Mb/s, Required: 2-5 Mb/s
+  • AUDIO_CODEC: Current: pcm_s16le, Required: aac
+  • AUDIO_BITRATE: Current: 1536 kb/s, Required: up to 256 kb/s
+
+Film: The_Hill_Gang_Rides_Again.mp4
+--------------------------------------------------------------------------------
+Problematic Fields:
+  • VIDEO_CODEC: Current: h264, Required: hevc
+  • VIDEO_BITRATE: Current: 7.54 Mb/s, Required: 2-5 Mb/s
+
+Film: Voyage_to_the_Planet_of_Prehistoric_Women.mp4
+--------------------------------------------------------------------------------
+Problematic Fields:
+  • FRAME_RATE: Current: 29.97 FPS, Required: 25.0 FPS
+  • VIDEO_BITRATE: Current: 8.04 Mb/s, Required: 2-5 Mb/s
+  • AUDIO_CODEC: Current: mp3, Required: aac
+  • AUDIO_BITRATE: Current: 320 kb/s, Required: up to 256 kb/s
+
+Film: The_Gun_and_the_Pulpit.avi
+--------------------------------------------------------------------------------
+Problematic Fields:
+  • CONTAINER: Current: avi, Required: mp4
+  • VIDEO_CODEC: Current: rawvideo, Required: hevc
+  • RESOLUTION: Current: 720x404, Required: 640x360
+  • ASPECT_RATIO: Current: 180:101, Required: 16:9
+  • VIDEO_BITRATE: Current: 88.30 Mb/s, Required: 2-5 Mb/s
+  • AUDIO_CODEC: Current: pcm_s16le, Required: aac
+  • AUDIO_BITRATE: Current: 1536 kb/s, Required: up to 256 kb/s
+
+================================================================================
+END OF REPORT
+================================================================================
